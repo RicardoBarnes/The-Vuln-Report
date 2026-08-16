@@ -1,0 +1,120 @@
+baseURL = "https://ricardoBarnes.github.io/The-Vuln-Report/"
+locale = "en-us"
+title = "The Vuln-Report"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  author = "Ricardo Barnes"
+  description = "A cybersecurity blog covering vulnerability management, prioritization, assessment, and the evolving role of AI in security."
+  keywords = ["cybersecurity", "vulnerability management", "AI security", "threat intelligence", "infosec"]
+  defaultTheme = "auto"          # auto | light | dark
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = true
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "The Vuln-Report"
+    Content = """
+Welcome. I'm Ricardo Barnes — a cybersecurity practitioner writing about **vulnerability management**, **threat prioritization**, and the shifting landscape of **AI in security**.
+
+No fluff. Just real analysis, practical insight, and honest takes on where the field is heading.
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/RicardoBarnes"
+
+  [params.assets]
+    disableHLJS = true
+
+  [params.label]
+    text = "The Vuln-Report"
+    icon = "/favicon.ico"
+    iconHeight = 35
+
+  # Giscus comments — fill in repo-id and category-id from giscus.app
+  [params.giscus]
+    repo = "RicardoBarnes/The-Vuln-Report"
+    repoId = "REPLACE_WITH_REPO_ID"
+    category = "Announcements"
+    categoryId = "REPLACE_WITH_CATEGORY_ID"
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "en"
+    loading = "lazy"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 40
+  [[menu.main]]
+    identifier = "newsletter"
+    name = "Newsletter"
+    url = "/newsletter/"
+    weight = 50
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 60
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
