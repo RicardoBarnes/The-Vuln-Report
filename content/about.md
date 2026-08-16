@@ -9,14 +9,14 @@ ShowReadingTime: false
 
 ## Hey, I'm Ricardo Barnes.
 
-I'm a cybersecurity practitioner, researcher, and student of the field — writing about the things that actually matter in security right now.
+I'm a cybersecurity practitioner, enthusiast, and student of the field — writing about the things that caught my interest in security right now.
 
 **The Vuln-Report** is my personal space to share:
 
-- My takes on **vulnerability management** and how organizations should be thinking about it
-- Deep dives into **threat prioritization** — what to patch, when, and why
+- My takes on **vulnerability management**
+- My thoughts on **threat prioritization** 
 - My ongoing research into how **AI is reshaping the attack and defense surface**
-- Honest commentary on industry trends, tools, and frameworks
+- commentary on industry news, and tools that I find interesting
 
 I write from my own experience and research. These are my views — not my employer's.
 
@@ -26,10 +26,10 @@ I write from my own experience and research. These are my views — not my emplo
 
 | Topic | What I Cover |
 |---|---|
-| **Vulnerability Management** | Prioritization frameworks, CVSS, KEV, EPSS |
+| **Vulnerability Management** | Prioritization frameworks|
 | **AI & Security** | Offensive AI, defensive AI, LLM attack surfaces |
 | **Threat Intelligence** | CTI practices, threat modeling, attacker TTPs |
-| **Industry Commentary** | Hot takes on news, tools, and standards |
+| **Industry Commentary** | commentary on news, tools, and frameworks |
 
 ---
 

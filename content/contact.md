@@ -13,9 +13,9 @@ Have a question, feedback, or want to discuss something I've written? I'd love t
 
 **The best way to reach me:**
 
-📧 **Email**: [rbveylan@gmail.com](mailto:rbveylan@gmail.com)
+**Email**: [rbveylan@gmail.com](mailto:[EMAIL_ADDRESS])
 
-🐙 **GitHub**: [github.com/RicardoBarnes](https://github.com/RicardoBarnes)
+**GitHub**: [github.com/RicardoBarnes](https://github.com/RicardoBarnes)
 
 ---
 
