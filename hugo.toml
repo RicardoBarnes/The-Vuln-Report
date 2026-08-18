@@ -1,4 +1,4 @@
-baseURL = "https://the-vuln-report.pages.dev/"
+baseURL = "https://the-vuln-report.ricardobarnes226.workers.dev/"
 locale = "en-us"
 title = "The Vuln-Report"
 theme = "PaperMod"
