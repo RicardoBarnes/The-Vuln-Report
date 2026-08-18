@@ -2,11 +2,13 @@ baseURL = "https://the-vuln-report.pages.dev/"
 locale = "en-us"
 title = "The Vuln-Report"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+
+[pagination]
+  pagerSize = 10
 
 [minify]
   disableXML = true
