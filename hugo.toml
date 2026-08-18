@@ -38,9 +38,7 @@ buildExpired = false
   [params.homeInfoParams]
     Title = "The Vuln-Report"
     Content = """
-Welcome. I'm Ricardo Barnes — a cybersecurity practitioner writing about **vulnerability management**, **threat prioritization**, and the shifting landscape of **AI in security**.
-
-No fluff. Just real analysis, practical insight, and honest takes on where the field is heading.
+Welcome to my digital home — where I take an exploration into security through my own lens as I learn and grow. I'm not a well-experienced professional or a mentor figure, just an enthusiast hoping to have a bit more fun in this field.
 """
 
   [[params.socialIcons]]
