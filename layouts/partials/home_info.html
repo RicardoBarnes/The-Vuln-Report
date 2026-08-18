@@ -1,0 +1,19 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content md-content">
+        {{ $opts := dict "display" "block" }}
+        {{ .Content | $.Page.RenderString $opts }}
+    </div>
+    <div class="vr-status">
+        <span class="vr-status-item"><b>STATUS</b> ACTIVE</span>
+        {{- with site.Params.author }}<span class="vr-status-item"><b>MAINTAINER</b> {{ . }}</span>{{- end }}
+        {{- with site.Params.keywords }}<span class="vr-status-item"><b>FOCUS</b> {{ delimit (first 3 .) " / " | strings.ToUpper }}</span>{{- end }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}
